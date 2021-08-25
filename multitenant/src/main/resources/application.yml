@@ -1,0 +1,28 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 10
+      connection-timeout: 30000
+      idle-timeout: 600
+      max-lifetime: 360000
+      data-source-properties:
+        reWriteBatchedInserts: true
+  jpa:
+    show_sql: true
+    properties:
+      pageSize: 50
+      hibernate:
+        order_inserts: true
+        order_updates: true
+        jdbc:
+          batch_size: 20
+    hibernate:
+      package-to-scan: com.rujal
+    database-platform: org.hibernate.dialect.PostgreSQLDialect

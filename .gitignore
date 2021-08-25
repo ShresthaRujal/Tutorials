@@ -1,0 +1,7 @@
+#Multi-Tenant example
+multitenant/.idea/
+multitenant/target/
+multitenant/multitenant.iml
+multitenant/.classpath
+multitenant/.project
+multitenant/.settings
