@@ -1,0 +1,9 @@
+language: java
+branches:
+  -only:
+    - master
+jdk: oraclejdk8
+os:
+  - linux
+  - windows
+script: mvn package -DskiptTests
