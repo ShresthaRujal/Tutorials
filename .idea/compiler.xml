@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cassandra" />
         <module name="Test" />
         <module name="kafkaconfiguration" />
         <module name="multitenant" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cassandra" target="1.5" />
       <module name="kafkaconfiguration" target="1.8" />
       <module name="multitenant" target="1.8" />
       <module name="springboot_multitenant_Example" target="1.5" />

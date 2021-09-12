@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cassandraJava/Test.iml" filepath="$PROJECT_DIR$/cassandraJava/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cassandraJava/cassandra.iml" filepath="$PROJECT_DIR$/cassandraJava/cassandra.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-kafka/kafkaconfiguration.iml" filepath="$PROJECT_DIR$/spring-kafka/kafkaconfiguration.iml" />
       <module fileurl="file://$PROJECT_DIR$/multitenant/multitenant.iml" filepath="$PROJECT_DIR$/multitenant/multitenant.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot_multitenant_Example.iml" filepath="$PROJECT_DIR$/.idea/springboot_multitenant_Example.iml" />

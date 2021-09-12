@@ -7,3 +7,16 @@ multitenant/.project
 multitenant/.settings
 
 .idea
+cassandraJava/.idea
+cassandraJava/target
+cassandraJava/multitenant.iml
+cassandraJava/.classpath
+cassandraJava/.project
+cassandraJava/.settings
+
+spring-kafka/.idea
+spring-kafka/target
+spring-kafka/multitenant.iml
+spring-kafka/.classpath
+spring-kafka/.project
+spring-kafka/.settings
