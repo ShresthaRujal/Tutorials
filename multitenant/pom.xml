@@ -21,7 +21,7 @@
         <dependency>
             <groupId>io.gitlab.rujal_sh</groupId>
             <artifactId>springBoot-multiTenant</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.3</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kafkaconfiguration:war">
+    <output-path>$PROJECT_DIR$/spring-kafka/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kafkaconfiguration</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kafkaconfiguration-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kafkaconfiguration:war exploded" />
+    </root>
+  </artifact>
+</component>

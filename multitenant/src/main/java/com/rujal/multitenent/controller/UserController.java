@@ -23,7 +23,7 @@ public class UserController {
                 .username(userDto.getName())
                 .name(userDto.getName())
                 .build();
-        userDetail.setDataSourceConfig(userDto.getDataSourceConfig());
+//        userDetail.setDataSourceConfig(userDto.getDataSourceConfig());
         userService.save(userDetail);
         return ResponseEntity.ok("Saved User");
     }

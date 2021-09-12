@@ -7,13 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories
 @Database_Based_MultiTenancy(basePackages = "com.rujal")
-//@Import({DBTenantHelper.class, JpaHibernateProperties.class, PersistenceJPAConfig.class, MultiTenantConnectionProviderImpl.class, TenantSchemaResolver.class})
-public class MultitenentApplication {
+@EnableJpaRepositories
+public class MultiTenantApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MultitenentApplication.class, args);
+        SpringApplication.run(MultiTenantApplication.class, args);
     }
 
 }

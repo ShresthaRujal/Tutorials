@@ -10,12 +10,14 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Data
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Entity
 @TenantHolder
-public class UserDetail extends DataSourceComponent {
+public class UserDetail
+        extends DataSourceComponent
+{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

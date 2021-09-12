@@ -19,4 +19,9 @@ public class CarController {
         carService.save(Car.builder().brand(carDto.getBrand()).build());
         return ResponseEntity.ok("Car saved");
     }
+
+    @GetMapping
+    public ResponseEntity<?> getCars(){
+        return ResponseEntity.ok(carService.findAll());
+    }
 }

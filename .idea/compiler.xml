@@ -2,16 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Test" />
+        <module name="kafkaconfiguration" />
         <module name="multitenant" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="kafkaconfiguration" target="1.8" />
       <module name="multitenant" target="1.8" />
       <module name="springboot_multitenant_Example" target="1.5" />
+      <module name="Test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

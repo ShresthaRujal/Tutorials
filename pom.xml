@@ -11,6 +11,8 @@
 
     <modules>
         <module>multitenant</module>
+        <module>spring-kafka</module>
+        <module>cassandraJava</module>
     </modules>
 
 </project>
