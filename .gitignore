@@ -20,3 +20,10 @@ spring-kafka/multitenant.iml
 spring-kafka/.classpath
 spring-kafka/.project
 spring-kafka/.settings
+
+liquibase/.idea
+liquibase/target
+liquibase/liquibase.iml
+liquibase/.classpath
+liquibase/.project
+liquibase/.settings

@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: liquibase-poc
+  liquibase:
+    enabled: true
+    change-log: classpath:db/db.changelog-master.yml
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  sql:
+    init:
+      mode: always
+      platform: postgres

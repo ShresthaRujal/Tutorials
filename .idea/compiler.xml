@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="multitenant" />
         <module name="cassandra" />
         <module name="Test" />
+        <module name="liquibase" />
         <module name="kafkaconfiguration" />
-        <module name="multitenant" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cassandra" target="1.5" />
       <module name="kafkaconfiguration" target="1.8" />
+      <module name="liquibase" target="1.8" />
       <module name="multitenant" target="1.8" />
       <module name="springboot_multitenant_Example" target="1.5" />
       <module name="Test" target="1.5" />
@@ -23,6 +25,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="liquibase" options="-parameters" />
       <module name="multitenant" options="-parameters" />
     </option>
   </component>
